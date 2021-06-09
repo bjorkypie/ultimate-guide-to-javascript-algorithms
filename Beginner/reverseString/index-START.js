@@ -6,7 +6,7 @@ E.g reverseString('algorithms') // should return 'smhtirogla'
 
 
 function reverseString(text) {
-    // Code goes here
+    return [...text].reduce((acc, char) => char + acc, '')
 }
 
 
